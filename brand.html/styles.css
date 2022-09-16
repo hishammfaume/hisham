@@ -1,0 +1,328 @@
+
+ .body{
+   
+   margin:0;
+   padding:0;
+   width:100vw;
+ }
+ .container{
+
+    padding:0;
+    margin:0;
+    height:100vw;
+    width:100vw;
+    scroll-behavior: smooth;
+ }
+ nav{
+    padding:0;
+    margin:0;
+    width:100vw;
+    height:10vh;
+    display:inline-flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   position:relative;
+   top: 0;
+   background-color: #f6f3ee;
+  color:#547794;
+   align-items: center;
+   border-radius: 30px;
+ }
+ button{
+    height:0.5cm;
+    width:1cm;
+    position: absolute;
+    left: 2px;
+    z-index: 3;
+ }
+ 
+ .header{
+    font-size: larger;
+    font-style: oblique;
+    letter-spacing: 1px;
+    
+ }
+
+ .icons{
+  position:relative;
+  left:250px;
+  display: flex;
+  justify-content:flex-end;
+
+  gap:10px;
+  
+ }
+ .section-one{
+   border-bottom: 2px solid  darkkhaki;
+ }
+
+ .cards{
+    columns: 3;
+    gap: 20px;  
+    overflow: none; 
+    z-index: 1;
+ }
+.blob{
+  position:absolute;
+  margin:0px;
+}
+ .background1{
+  position:absolute;
+  left:0px;
+  width:20%;
+  z-index: -1;
+ }
+ .background2{
+  position:absolute;
+  left:300px;
+  width:20%;
+  z-index: -1;
+ }
+ .background3{
+  position:absolute;
+  left:600px;
+  width:25%;
+  z-index: -1;
+ }
+ .background4{
+  position:absolute;
+  left:800px;
+  width:15%;
+  z-index: -1;
+ }
+ .background5{
+  position:absolute;
+  left:1800px;
+  width:25%;
+  z-index: -1;
+ }
+ @media (min-width:0px) and (max-width:400px) {
+  .cards {
+   columns:4;
+  }
+ }
+
+
+.card{
+ width:400px;
+  overflow: hidden;
+  margin-bottom:40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 8px  black;
+}
+.one{
+  background-image: url(../anime.jpg.jpg);
+  background-size: cover;
+  height: 420px;
+}
+.two{
+  background-image: url(../brand.html/anime2.jpg.jpg);
+  background-size: cover;
+  height:700px;
+}
+.three{
+  background-image: url(../brand.html/an16.jpg.jpg);
+  background-size: cover;
+  height:500px;
+}
+.four{
+  background-image: url(../brand.html/anime4.jpg.jpg);
+  background-size: cover;
+  height:800px;
+  width:430px;
+}
+.five{
+  background-image: url(../brand.html/anime5.jpg.jpg);
+  background-size: cover;
+  height:400px;
+  width:430;
+}
+.six{
+  background-image: url(../brand.html/anime14.jpg.jpg);
+  background-size: cover;
+  height:500px;
+}
+.seven{
+  background-image: url(../brand.html/anime7.jpg.jpg);
+  background-size: cover;
+  height:800px;
+}
+.eight{
+  background-image: url(../brand.html/anime8.jpg.jpg);
+  background-size: cover;
+  height:800px;
+}
+.nine{
+  background-image: url(../brand.html/an15.jpg.jpg);
+  background-size: cover;
+  height:600px;
+}
+.ten{
+  background-image: url(../brand.html/anime10.jpg.jpg);
+  background-size: cover;
+  height:800px;
+  width:500;
+}
+.eleven{
+  background-image: url(../brand.html/anime11.jpg.jpg);
+  background-size: cover;
+  height:500px;
+}
+.twelve{
+  background-image: url(../brand.html/anime12.jpg.jpg);
+  background-size: cover;
+  height:700px;
+}
+.thirteen{
+  background-image: url(../brand.html/anime13.jpg.jpg);
+  background-size: cover;
+  height:400px;
+}
+
+.intro{
+  box-sizing: border-box; 
+  width:fit-content;
+  height:fit-content;
+  color:white;
+  background:black;
+height:400px; 
+opacity: 50%;
+visibility:hidden;
+}
+
+.card:hover .intro{
+  box-sizing: border-box; 
+  width:fit-content;
+  height:max-content;
+  color:white;
+  background:black;
+height:400px; 
+opacity: 50%;
+visibility: visible;
+cursor: pointer;
+}
+.card:hover .mbili{
+height:700px;
+}
+.card:hover .tatu{
+  height:500px;
+  }
+   .card:hover .nne{
+     height:800px;
+     width:430px;
+    }
+    .card:hover .tano{
+      height:400px;
+      width:430px;
+      }
+      .card:hover .sita{
+        height:500px;
+        }
+        .card:hover .saba{
+          height:800px;
+          }
+          .card:hover .nane{
+            height:800px;
+            }
+            .card:hover .tisa{
+              height:600px;
+              }
+              .card:hover .kumi{
+                height:800px;
+                }
+                .card:hover .kuminamoja{
+                  height:500px;
+                  }
+                  .card:hover .kuminambili{
+                    height:700px;
+                   }
+                     .card:hover .kuminatatu{
+                         height:400px;
+                        }
+.link{
+ text-decoration: none;
+ color:gray;
+}
+
+
+@media screen and (min-width:200px) and (max-width:1000px) {
+  .card{
+    width:130px;
+  }
+  .one{
+    background-image: url(../anime.jpg.jpg);
+    background-size: cover;
+    height: 210px;
+  }
+  .two{
+    background-image: url(../brand.html/anime2.jpg.jpg);
+    background-size: cover;
+    height:350px;
+  }
+  .three{
+    background-image: url(../brand.html/anime3.jpg.jpg);
+    background-size: cover;
+    height:250px;
+  }
+  .four{
+    background-image: url(../brand.html/anime4.jpg.jpg);
+    background-size: cover;
+    height:400px;
+    width:150px;
+  }
+  .five{
+    background-image: url(../brand.html/anime5.jpg.jpg);
+    background-size: cover;
+    height:200px;
+    width:215;
+  }
+  .six{
+    background-image: url(../brand.html/anime6.jpg.jpg);
+    background-size: cover;
+    height:250px;
+  }
+  .seven{
+    background-image: url(../brand.html/anime7.jpg.jpg);
+    background-size: cover;
+    height:400px;
+  }
+  .eight{
+    background-image: url(../brand.html/anime8.jpg.jpg);
+    background-size: cover;
+    height:400px;
+  }
+  .nine{
+    background-image: url(../brand.html/anime9.jpg.jpg);
+    background-size: cover;
+    height:300px;
+  }
+  .ten{
+    background-image: url(../brand.html/anime10.jpg.jpg);
+    background-size: cover;
+    height:400px;
+    width:250;
+  }
+  .eleven{
+    background-image: url(../brand.html/anime11.jpg.jpg);
+    background-size: cover;
+    height:250px;
+  }
+  .twelve{
+    background-image: url(../brand.html/anime12.jpg.jpg);
+    background-size: cover;
+    height:350px;
+  }
+  .thirteen{
+    background-image: url(../brand.html/anime13.jpg.jpg);
+    background-size: cover;
+    height:200px;
+  }
+  .intro{
+    box-sizing: border-box; 
+    width: 200px;
+    height:50px;
+    color:white;
+  }
+}
+
+ 
